@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'theme/app_theme.dart';
 
 class GriefOSApp extends StatelessWidget {
   const GriefOSApp({super.key});
@@ -8,6 +9,7 @@ class GriefOSApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'GriefOS',
+      theme: AppTheme.lightTheme,
       home: const Scaffold(
         body: Center(
           child: Text('GriefOS'),
