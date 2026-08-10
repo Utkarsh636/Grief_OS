@@ -4,6 +4,10 @@ class AppColors {
   static const primary = Color(0xFF315C72);
   static const secondary = Color(0xFF6B8E9E);
 
+  // GriefOS soft accent colors
+  static const sageSoft = Color(0xFFE8F0EC);
+  static const clay = Color(0xFFB4744A);
+
   static const background = Color(0xFFF7F8F8);
   static const surface = Color(0xFFFFFFFF);
 
